@@ -1,8 +1,9 @@
-import 'flavors.dart';
+import 'package:flutter/cupertino.dart';
 
-import 'main.dart' as runner;
+import 'app.dart';
+import 'flavors.dart';
 
 Future<void> main() async {
   F.appFlavor = Flavor.prod;
-  await runner.main();
+  runApp(const App());
 }
