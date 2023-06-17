@@ -33,12 +33,12 @@ android {
     productFlavors {
         dev {
             dimension "flavor-type"
-            applicationId "com.jeanloth.flutter.projects.bamboukreyol.dev"
+            applicationId "com.jeanloth.flutter.projects.bamboukreyol.app.dev"
             resValue "string", "app_name", "BK App - Dev"
         }
         prod {
             dimension "flavor-type"
-            applicationId "com.jeanloth.flutter.projects.bamboukreyol"
+            applicationId "com.jeanloth.flutter.projects.bamboukreyol.app"
             resValue "string", "app_name", "BK App"
         }
     }
