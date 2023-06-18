@@ -7,6 +7,42 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:971294461557:android:7470576a88d4e51a38f23c",
+        "android_client_info": {
+          "package_name": "com.jeanloth.flutter.projects.bamboukreyol.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971294461557-38ht3v168a384s6kn1ilvaihrcvib7ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAcUDbYAhb7md02SsTBY-bxyg-Z5WzsRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971294461557-38ht3v168a384s6kn1ilvaihrcvib7ou.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "971294461557-27k6rl2mat6jjoj1blh2so4ckt5r8e22.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jeanloth.flutter.projects.bamboukreyol.app.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:971294461557:android:c56d146376a8dd2638f23c",
         "android_client_info": {
           "package_name": "com.jeanloth.flutter.projects.bamboukreyol.app.dev"
@@ -29,6 +65,13 @@
             {
               "client_id": "971294461557-38ht3v168a384s6kn1ilvaihrcvib7ou.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "971294461557-27k6rl2mat6jjoj1blh2so4ckt5r8e22.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jeanloth.flutter.projects.bamboukreyol.app.dev"
+              }
             }
           ]
         }
