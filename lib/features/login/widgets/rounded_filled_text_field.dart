@@ -12,7 +12,7 @@ class RoundedFilledTextField extends StatelessWidget {
       width: width,
       child: TextField(
         textAlign: TextAlign.center,
-        style: context.t.bodyLarge?.copyWith(color: Colors.black, fontSize: 16),
+        style: context.t.bodyLarge?.copyWith(color: Colors.black, fontSize: 16.0),
         decoration: InputDecoration(
             filled: true,
             isDense: true,

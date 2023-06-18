@@ -3,6 +3,7 @@ import 'package:bamboukreyol/core/extensions/context_extensions.dart';
 import 'package:bamboukreyol/features/login/widgets/rounded_filled_text_field.dart';
 import 'package:flutter/material.dart';
 
+import '../../flavors.dart';
 import '../../shared/widgets/spaces.dart';
 
 class LoginPage extends StatelessWidget {
@@ -21,7 +22,7 @@ class LoginPage extends StatelessWidget {
               mainAxisSize: MainAxisSize.max,
               children: [
                 const Spacer(flex: 1),
-                Text(StringConstants.belBonjou, style: context.t.titleLarge),
+                Text("${StringConstants.belBonjou} (${F.name})", style: context.t.titleLarge),
                 const Spacer(),
                 const CircleAvatar(radius: 70, backgroundImage: AssetImage(StringConstants.logoBkWhite)),
                 const VSpace(24),

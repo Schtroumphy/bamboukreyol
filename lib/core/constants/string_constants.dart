@@ -11,5 +11,5 @@ final class StringConstants {
 
 
   // Assets
-  static const logoBkWhite = "asset/logo_bk_white.jpg";
+  static const logoBkWhite = "assets/logo_bk_white.jpg";
 }
