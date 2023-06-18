@@ -1,11 +1,15 @@
 import 'package:bamboukreyol/core/constants/route_names.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../core/services/auth_service.dart';
 import '../../flavors.dart';
 
 class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
+  MyHomePage({super.key});
+
+  final User? user = Auth().currentUser;
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +21,7 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           children: [
             Text(
-              'Hello ${F.title}',
+              'Hello ${F.title} - User : ${user?.email}',
             ),
             const Spacer(),
             ElevatedButton(

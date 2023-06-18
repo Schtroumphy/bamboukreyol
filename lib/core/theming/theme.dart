@@ -6,12 +6,20 @@ final lightTheme = ThemeData(
     fontFamily: GoogleFonts.rosario().fontFamily,
     scaffoldBackgroundColor: AppColor.primaryColor,
     textTheme: _textTheme,
-    colorScheme: _colorScheme
+    colorScheme: _colorScheme,
+    elevatedButtonTheme: _elevatedButtonTheme
+);
+
+final _elevatedButtonTheme = ElevatedButtonThemeData(
+  style: ElevatedButton.styleFrom(
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      backgroundColor: AppColor.primaryColor2,
+      padding: EdgeInsets.zero,
+  ),
 );
 
 final _textTheme = GoogleFonts.rosarioTextTheme().apply(
   bodyColor: Colors.white,
-
 );
 
 final _colorScheme = ColorScheme.fromSeed(
