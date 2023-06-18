@@ -1,12 +1,10 @@
+import 'package:bamboukreyol/core/constants/route_names.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../flavors.dart';
-import '../login/login_page.dart';
 
 class MyHomePage extends StatelessWidget {
-  static const String routeName = "/HomePage";
-
   const MyHomePage({super.key});
 
   @override
@@ -36,6 +34,6 @@ class MyHomePage extends StatelessWidget {
 
   _onButtonPressed(BuildContext context) {
     if (!context.mounted) return;
-    context.pushNamed(LoginPage.routeName);
+    context.pushNamed(RouteName.loginPage);
   }
 }

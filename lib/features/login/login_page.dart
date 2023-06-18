@@ -6,8 +6,6 @@ import 'package:flutter/material.dart';
 import '../../shared/widgets/spaces.dart';
 
 class LoginPage extends StatelessWidget {
-  static const String routeName = "/LoginPage";
-
   const LoginPage({Key? key}) : super(key: key);
 
   @override

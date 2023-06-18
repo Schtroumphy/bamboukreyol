@@ -1,3 +1,4 @@
+import 'package:bamboukreyol/core/constants/route_names.dart';
 import 'package:bamboukreyol/features/home/my_home_page.dart';
 import 'package:go_router/go_router.dart';
 
@@ -16,12 +17,12 @@ final _routes = [
   ),
   GoRoute(
     path: '/login',
-    name: LoginPage.routeName,
+    name: RouteName.loginPage,
     builder: (context, state) => const LoginPage(),
   ),
   GoRoute(
     path: '/home',
-    name: MyHomePage.routeName,
+    name: RouteName.homePage,
     builder: (context, state) => const MyHomePage(),
   ),
 ];
