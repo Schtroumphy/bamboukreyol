@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'core/navigation/router.dart';
+import 'core/theming/theme.dart';
 import 'flavors.dart';
 
 class App extends StatelessWidget {
@@ -11,9 +12,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       title: F.title,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: lightTheme,
       routerConfig: router,
     );
   }
